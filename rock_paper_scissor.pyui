@@ -1,0 +1,139 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "Rock",
+          "name" : "rock_button",
+          "action" : "rock_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "uuid" : "CA3A697B-2475-4B10-A0C0-A6C3A57D303B"
+        },
+        "frame" : "{{160, 368}, {80, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "Paper",
+          "name" : "paper_button",
+          "action" : "paper_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "uuid" : "26FC3698-81F0-4355-AE03-4CCE9EFB1B6B"
+        },
+        "frame" : "{{30, 368}, {80, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "Scissor",
+          "name" : "scissor_button",
+          "action" : "scissor_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "uuid" : "E877BBC0-2AB3-4D9A-B0AB-667E6493C484"
+        },
+        "frame" : "{{281, 368}, {80, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "computers_choice_label",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "CC7FCA30-AF60-445A-A09E-E6B21EB06286"
+        },
+        "frame" : "{{118, 185}, {179, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "who_won_label",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "B6E605BD-B6FE-4B50-B8B0-408E956AB384"
+        },
+        "frame" : "{{134, 253}, {150, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Rock, Paper, Scissor Game",
+          "font_name" : "<System>",
+          "name" : "title_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "6D7C50B4-37CB-443F-A243-8DB2EC03854A"
+        },
+        "frame" : "{{92, 87}, {234, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "The computer's choice is:",
+          "font_name" : "<System>",
+          "name" : "computer_choice_output_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "5792D8A2-4FD0-4D21-82B2-84E29864CEF0"
+        },
+        "frame" : "{{92, 145}, {227, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
